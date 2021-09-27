@@ -4,4 +4,6 @@
 4.Skills: HTML(beginner), CSS(beginner), JS(beginner)
 5.Example of code: -
 6.IT-Academy (Разработка web-приложений на Java Script)
+7.BSTU
+8.A0
 
