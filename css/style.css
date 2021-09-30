@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: azure;
+}
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+.nav__bar {
+    margin-bottom: 50px;
+
+}
+.toolbar {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.toolbar li {
+    padding: 10px;
+    list-style-type: none;
+}
+.toolbar li a {
+    color: #311996;
+    text-decoration: none;
+}
+.info__me_photo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.info__me_photo img {
+    width: 300px;
+}
+.info__me_bio {
+    color: #311996;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.info__me_bio p {
+    font-size: 30px;
+    font-weight: bold;
+}
+.info__me_bio p span {
+    color: crimson;
+}
+.info__me_bio h1 {
+    font-size: 64px;
+}
+.info__me_description {
+    margin-bottom: 100px;
+}
+.info__me_description p {
+    font-size: 18px;
+    color: #311996;
+}
+.skills {
+    margin-bottom: 100px;
+    padding: 60px;
+    background: #311996;
+    border-radius: 5%;
+}
+.skills p {
+    color: crimson;
+    font-size: 18px;
+}
+.skills h2 {
+    color: #fff;
+    font-size: 28px;
+}
+.skills__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+}
+.skills_item {
+    list-style-type: none;
+    font-size: 24px;
+    color: white;
+}
+.languages {
+    margin-bottom: 100px;
+}
+.languages p {
+    color: crimson;
+    font-size: 18px;
+}
+.languages h2 {
+    color: #311996;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.languages__list {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 30px;
+}
+.languages__title {
+    color: #311996;
+    margin-top: 10px;
+    grid-row: 1 / 2;
+    position: relative;
+    font-size: 24px;
+    line-height: 2.5;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.languages__title::before {
+    position: absolute;
+    content: "";
+    width: 34px;
+    height: 10px;
+    background-color: rgb(225,33,121);
+    top: 0;
+}
+.languages__level {
+    color: #311996;
+    font-weight: bold;
+    font-size: 18px;
+}
+.education {
+    margin-bottom: 100px;
+}
+.education p {
+    color: crimson;
+    font-size: 18px;
+}
+.education h2 {
+    color: #311996;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.education__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+.education__list li {
+    list-style: none;
+}
+.education__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 2fr;
+    column-gap: 28px;
+    position: relative;
+}
+.education__item p {
+    color: #311996;
+    line-height: 1.8;
+    font-size: 24px;
+}
+.education__year {
+    font-weight: 600;
+}
+.education__title {
+    line-height: 1.8;
+    color: #311996;
+    font-size: 24px;
+}
+.education a {
+    display: inline;
+    color: #311996;
+    text-decoration: none;
+    border-bottom: 1px solid #311996;
+    position: relative;
+    line-height: 1.2;
+}
+.education__item:not(:last-child)::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #311996;
+    bottom: -34px;
+}
+.code-examples {
+    margin-bottom: 100px;
+}
+.code-examples pre code {
+    background: azure;
+    font-size: 18px;
+}
+.code-examples p {
+    color: crimson;
+    font-size: 18px;
+}
+.code-examples h2 {
+    color: #311996;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.contact {
+    margin-bottom: 100px;
+}
+.contact h2 {
+    margin-bottom: 30px;
+    color: #311996;
+    font-size: 28px;
+}
+.contact__list {
+    display: flex;
+    justify-content: space-between;
+}
+.contact__item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.contact__item a {
+    color: #311996;
+    font-size: 18px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.contact__item a img {
+    width: 30px;
+}
+.footer {
+    margin-bottom: 50px;
+    padding-top: 50px;
+    border-top: darkred 2px solid;
+}
+.footer__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__item {
+    color: #311996;
+    font-size: 24px;
+}
+.footer__item a {
+    text-decoration: none;
+}
+.footer__item img {
+    width: 100px;
+}
+
