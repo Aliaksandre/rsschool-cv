@@ -1,1 +1,169 @@
+<!doctype html>
+<html lang=ru>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav__bar">
+                <ul class="toolbar">
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#code-examples">Code Style</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="info__me">
+                <div class="info__me_photo">
+                    <img src="images/imgonline-com-ua-Shape-lJl3TgRqOOF.png" alt="My photo">
+                </div>
+                <div class="info__me_bio">
+                    <p>Hi, I'm <span>Alex Kazak</span></p>
+                    <h1>Front-End Developer</h1>
+                </div>
+                <div class="info__me_description">
+                    <p class="description-item">I am a Junior Front End Developer with IT project management experience. I am passionate about good user experience and accessibility.</p>
+                    <p class="description-item">I’m looking for collaboration in non-profit / commercial projects in Education and Science.</p>
+                    <p class="description-item">Currently based in Brest. I love cycling and listening to jazz and house music.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="skills">
+            <div class="container">
+                <div class="skills">
+                    <p>Why hire me</p>
+                    <h2>Hard skills</h2>
+                    <hr>
+                    <ul class="skills__list">
+                        <li class="skills_item">HTML</li>
+                        <li class="skills_item">CSS / BEM</li>
+                        <li class="skills_item">JavaScript</li>
+                        <li class="skills_item">SVG</li>
+                        <li class="skills_item">Regular Expressions</li>
+                        <li class="skills_item">Figma / Photoshop</li>
+                        <li class="skills_item">Git</li>
+                        <li class="skills_item">Node JS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="languages">
+            <div class="container">
+                <div class="languages">
+                    <p>I can speak</p>
+                    <h2>Languages</h2>
+                    <hr>
+                    <dl class="languages__list">
+                        <dt class="languages__title">English</dt>
+                        <dd class="languages__level">Fluent</dd>
+                        <dt class="languages__title">Russia</dt>
+                        <dd class="languages__level">Native</dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <div class="container">
+                <div class="education">
+                    <p>Where I gained my knowledge</p>
+                    <h2>Education and courses</h2>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <p class="education__year">2021 - now</p>
+                            <p class="education__progress">In progress</p>
+                            <h4 class="education__title">Javascript/Front-End Program</h4>
+                            <p class="education__company"><a href="https://rs.school/js/">Rolling Scopes School</a></p>
+                        </li>
+                        <li class="education__item">
+                            <p class="education__year">2021</p>
+                            <p class="education__progress">Certificate</p>
+                            <h4 class="education__title">Developing Web Applications in Java Script</h4>
+                            <p class="education__company"><a href="https://www.brest.it-academy.by/course/front-end-developer/razrabotka-veb-prilozheniy-na-javascript/">It-Academy</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="code-examples">
+            <div class="container">
+                <div class="code-examples">
+                    <p>My code style</p>
+                    <h2>Code examples</h2>
+                    <hr>
+                    <pre>
+                        <code class="language-javascript">const scrollToTopButton = document.getElementById("scrollToTop");
 
+const handleScroll = () => {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    scrollToTopButton.style.display = "block";
+  }
+  else {
+    scrollToTopButton.style.display = "none";
+  }
+};
+
+const scrollToTop = () => {
+  const distanceFromTop = document.documentElement.scrollTop || document.body.scrollTop;
+
+  if (distanceFromTop > 0) {
+    window.scrollTo(0, 0);
+  }
+};
+
+document.addEventListener("scroll", handleScroll);
+scrollToTopButton.addEventListener("click", function(e) {
+  e.preventDefault();
+  scrollToTop();
+});
+                        </code>
+                    </pre>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="contact">
+                    <h2>Мои контакты</h2>
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <a href="https://web.telegram.org/k/"><img src="images/Telegram_2019_Logo.svg.png" alt="Telegram"></a>
+                            <a href="">Telegram</a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="https://www.instagram.com/?hl=ru"><img src="images/1024px-Instagram_new.svg.png" alt="Instagram"></a>
+                            <a href="">Instagram</a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="https://vk.com/"><img src="images/VK_Blue_Logo_t.png" alt="VK"></a>
+                            <a href="">VK</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="https://github.com/Aliaksandre">Github</a></li>
+                    <li class="footer__item">2021</li>
+                    <li class="footer__item"><a href="https://rs.school/js/"><img src="images/rs_school_js.svg" alt="logo__Rsschool"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
